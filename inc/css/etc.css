@@ -1,0 +1,25 @@
+.oxsn_video_player {
+	float: left;
+	width: 100%;
+	height: 0;
+	padding-bottom: 56.25%;
+	padding-top: 25px;
+	position: relative;
+	z-index: 1;
+	overflow: hidden;
+}
+
+.oxsn_video_player .oxsn_video_player_video_bg { 
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: -100;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+}
